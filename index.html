@@ -1,0 +1,229 @@
+<html>
+
+   <head>
+
+   </head>
+
+   <body>
+
+      <p style = "color:red;">
+
+         This text will be written in red.
+
+      </p>
+
+   </body>
+
+</html>
+
+<html>
+
+   <head>
+
+   </head>
+
+   <body>
+
+      <p style = "letter-spacing:5px;">
+
+         This text is having space between letters.
+
+      </p>
+
+   </body>
+
+</html>
+
+<html>
+
+   <head>
+
+   </head>
+
+   <body>
+
+      <p style = "text-decoration:underline;">
+
+         This will be underlined
+
+      </p>
+
+      <p style = "text-decoration:line-through;">
+
+         This will be striked through.
+
+      </p>
+
+      <p style = "text-decoration:overline;">
+
+         This will have a over line.
+
+      </p>
+
+      <p style = "text-decoration:blink;">
+
+         This text will have blinking effect
+
+      </p>
+
+   </body>
+
+</html>
+<html>
+
+   <head>
+
+   </head>
+
+   <body>
+
+      <p style = "text-shadow:4px 4px 8px blue;">
+
+         If your browser supports the CSS text-shadow property,
+
+         this text will have a  blue shadow.
+
+      </p>
+
+   </body>
+
+</html>
+
+<html>
+<head>
+<title>Setting Numbering or Bullet Point Style of Lists</title>
+<style>  
+    ul { list-style-type: square;    }
+    ol {list-style-type: upper-roman;    }
+</style>
+</head>
+<body>
+    <h2>Unordered List</h2>
+    <ul>
+        <li>List Item 1</li>       
+       <li>List Item 2</li>
+        <li>List Item 3</li>    
+     </ul>   
+ 
+<h2>Ordered List</h2>
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ol>
+</body>
+</html>
+
+<html>
+<head>
+<title>Building Navigation Bar with HTML List and CSS</title>
+<style>
+    body{font-size: 14px;
+    font-family: Arial,sans-serif;   }
+    ul { padding: 0; list-style: none;
+    background: #f2f2f2;  }
+    ul li {display: inline-block;  }
+    ul li a { display: block;
+        padding: 10px 25px;
+        color: #333;
+        text-decoration: none;  }
+    ul li a:hover { color: #fff;
+        background: #939393;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+ <p><strong>Note:</strong> Place mouse pointer over the menu link to see the hover effect.</p>
+</body>
+
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link { color: red;}
+
+/* visited link */
+a:visited {  color: green; }
+
+/* mouse over link */
+a:hover {  color: hotpink; }
+
+/* selected link */
+a:active {  color: blue; }
+</style>
+</head>
+<body>
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+div {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+div:hover {  background-color: blue;}
+</style>
+</head>
+<body>
+
+<p>Mouse over the div element below to change its background color:</p>
+
+<div>Mouse Over Me</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of CSS Static Positioning</title>
+<style>
+    .box{
+        color: #fff;
+        background: #7dc765;
+        padding: 20px;
+    }
+    .container{
+        padding: 50px;
+        margin: 50px;
+        position: relative;
+        border: 5px solid black;
+        font-family: Arial, sans-serif;
+    }
+    .container p{
+        line-height: 50px;
+    }
+</style>
+</head>
+<body>
+   <div class="container">
+       <div class="box">
+           <h2>Static Positioned Box</h2>
+           <div><strong>Note:</strong> This box is positioned static, which is default. It is always positioned according to the normal flow of the page.</div>
+       </div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus,.</p>
+        <p>Quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit euismod. Curabitur et diam tristique, accumsan nunc eu.</p>
+    </div>
+</body>
+</html>
+      
